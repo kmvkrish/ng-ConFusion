@@ -7,6 +7,7 @@ import {
   MatButtonModule,
   MatCardModule,
   MatGridListModule,
+  MatListModule,
   MatToolbarModule
 } from '@angular/material';
 import { FlexLayoutModule } from '@angular/flex-layout';
@@ -14,11 +15,13 @@ import { FlexLayoutModule } from '@angular/flex-layout';
 import 'hammerjs';
 import { AppComponent } from './app.component';
 import { MenuComponent } from './menu/menu.component';
+import { DishdetailComponent } from './dishdetail/dishdetail.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    MenuComponent
+    MenuComponent,
+    DishdetailComponent
   ],
   imports: [
     BrowserModule,
@@ -27,6 +30,7 @@ import { MenuComponent } from './menu/menu.component';
     MatButtonModule,
     MatCardModule,
     MatGridListModule,
+    MatListModule,
     MatToolbarModule,
     FlexLayoutModule
   ],
