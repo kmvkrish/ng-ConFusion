@@ -4,8 +4,9 @@ import { NgModule } from '@angular/core';
 import { HttpModule } from '@angular/http';
 
 import {
+  MatButtonModule,
   MatCardModule,
-  MatListModule,
+  MatGridListModule,
   MatToolbarModule
 } from '@angular/material';
 import { FlexLayoutModule } from '@angular/flex-layout';
@@ -23,8 +24,9 @@ import { MenuComponent } from './menu/menu.component';
     BrowserModule,
     BrowserAnimationsModule,
     HttpModule,
+    MatButtonModule,
     MatCardModule,
-    MatListModule,
+    MatGridListModule,
     MatToolbarModule,
     FlexLayoutModule
   ],
