@@ -25,7 +25,7 @@
   </div>
 
   <div fxFlex="40" *ngIf="dish">
-    <h3>Comments</h3>
+    <h3>{{dish.comments.length}} Comments</h3>
     <hr/>
     <mat-list role="list">
       <mat-list-item *ngFor="let comment of dish.comments">
